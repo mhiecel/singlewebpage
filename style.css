@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.about {
+    padding: 100px 10px;
+    height: 50vh;
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+}
+
+.about-name{
+    color: #584652;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(img/powerpuffgirls..jpg)no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: 8;
+}
+
+footer{
+    background-color: aliceblue;
+    text-align: center;
+    color: #584652;
+}
